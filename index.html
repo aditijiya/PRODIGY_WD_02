@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Stopwatch</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <!-- Stopwatch Headline -->
+        <h1 class="stopwatch-headline mb-4">Stopwatch</h1>
+        
+        <!-- Stopwatch Display -->
+        <div class="display bg-dark text-white p-5 mb-5 rounded-circle shadow-lg">
+          <h2 id="time" class="display-time">00:00:00</h2>
+        </div>
+        
+        <!-- Stopwatch Controls -->
+        <div class="controls">
+          <button id="startBtn" class="btn btn-lg btn-outline-success me-3">Start</button>
+          <button id="stopBtn" class="btn btn-lg btn-outline-danger me-3">Stop</button>
+          <button id="resetBtn" class="btn btn-lg btn-outline-secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

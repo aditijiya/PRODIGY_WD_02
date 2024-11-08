@@ -1,0 +1,93 @@
+/* style.css */
+
+/* Body Styling */
+body {
+    background: linear-gradient(135deg, #e2edf0, #143f74); /* Blue gradient background */
+    color: #faf0f0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  /* Headline Styling */
+  .stopwatch-headline {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0f0e0e;
+  }
+  
+  /* Display Box Styling */
+  .display {
+    margin-left: 27%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255, 255, 255, 0.2); /* White border with transparency */
+  }
+  
+  /* Time Text Styling */
+  .display-time {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 120px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Start Button */
+  #startBtn {
+    border-color: #0e7c28;
+    color: #087b23;
+  }
+  
+  #startBtn:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Stop Button */
+  #stopBtn {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  #stopBtn:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Reset Button */
+  #resetBtn {
+    border-color: #070708;
+    color: #101416;
+  }
+  
+  #resetBtn:hover {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Shadow and Padding */
+  .shadow-lg {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  }
+  
+  /* General Spacing */
+  .container {
+    text-align: center;
+  }
+  
